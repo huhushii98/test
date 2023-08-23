@@ -77,8 +77,9 @@ input[type="submit"] {
   background: brown;
   color: white;
   font-size: 15px;
-  float: right;
+  margin-left: auto;
   height: 34px;
   margin-top: 4px;
+  
 
 }
