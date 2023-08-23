@@ -6,19 +6,17 @@ body {
   color: white;
   font-family: helvetica;
 }
-p {
+header {
   font-size: 17px;
   color: black;
+ 
 }
 input {
   border: 0;
   padding: 10px;
   font-size: 18px;
 }
-input[type="submit"] {
-  background: red;
-  color: white;
-}
+
 
 .topnav {
 overflow: hidden;
@@ -51,12 +49,13 @@ color: white;
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
-float: right;
+margin-left: 265px;
 padding: 5px;
 border: none;
-margin-top: 8px;
-margin-right: 16px;
+margin-top: 5px;
 font-size: 15px;
+height:22px;
+
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -72,4 +71,14 @@ padding: 14px;
 .topnav input[type=text] {
 border: 1px solid #ccc;
 }
+}
+
+input[type="submit"] {
+  background: brown;
+  color: white;
+  font-size: 15px;
+  float: right;
+  height: 34px;
+  margin-top: 4px;
+
 }
