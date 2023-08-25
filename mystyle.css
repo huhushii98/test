@@ -19,9 +19,12 @@ input {
 
 
 .topnav {
-overflow: hidden;
-background-color: #e9e9e9;
-height: 41px;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center items vertically */
+  overflow: hidden;
+  background-color: #e9e9e9;
+  height: 41px;
+  padding: 0 16px; /* Add padding to create space around elements */
 }
 
 /* Style the links inside the navigation bar */
@@ -49,15 +52,14 @@ color: white;
 
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
-margin-left: 1030px;
-padding: 5px;
-border: none;
-margin-top: 5px;
-font-size: 15px;
-height:22px;
-
-
+  padding: 5px;
+  border: none;
+  margin-top: 5px;
+  font-size: 15px;
+  height: 22px;
+  /* Occupy remaining space */
 }
+
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
@@ -78,10 +80,7 @@ button {
   background: brown;
   color: white;
   font-size: 15px;
-  margin-left: auto;
   height: 34px;
-  margin-top: 4px;
-  float: right;
-  
-
+  margin-top: 5px; /* Adjust margin for alignment */
 }
+
